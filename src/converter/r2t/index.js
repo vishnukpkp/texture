@@ -8,6 +8,7 @@ import ExtractCaptionTitle from './ExtractCaptionTitle'
 import UpdateDocType from './UpdateDocType'
 import TransformAff from './TransformAff'
 import TransformContrib from './TransformContrib'
+import ConvertCodeCell from './ConvertCodeCell'
 import ConvertElementCitation from './ConvertElementCitation'
 import ConvertContentLoc from './ConvertContentLoc'
 import ConvertSigBlock from './ConvertSigBlock'
@@ -34,6 +35,7 @@ const trafos = [
   WrapDispQuoteContent,
   Sec2Heading,
   ConvertContentLoc,
+  ConvertCodeCell,
   UpdateDocType,
   // TODO: is this really necessary again?
   // PruneText,
