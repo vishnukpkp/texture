@@ -308,6 +308,10 @@
       <optional>
         <ref name="caption.class"/>
       </optional>
+      <!-- used to carry source code for reproducible figures -->
+      <optional>
+        <ref name="alternatives"/>
+      </optional>
       <ref name="graphic"/>
       <zeroOrMore>
         <ref name="display-back-matter.class"/>

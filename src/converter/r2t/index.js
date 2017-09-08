@@ -9,6 +9,7 @@ import UpdateDocType from './UpdateDocType'
 import TransformAff from './TransformAff'
 import TransformContrib from './TransformContrib'
 import ConvertCodeCell from './ConvertCodeCell'
+import ConvertReproFig from './ConvertReproFig'
 import ConvertElementCitation from './ConvertElementCitation'
 import ConvertContentLoc from './ConvertContentLoc'
 import ConvertSigBlock from './ConvertSigBlock'
@@ -36,6 +37,7 @@ const trafos = [
   Sec2Heading,
   ConvertContentLoc,
   ConvertCodeCell,
+  ConvertReproFig,
   UpdateDocType,
   // TODO: is this really necessary again?
   // PruneText,
